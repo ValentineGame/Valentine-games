@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chiy Valentine - Blog</title>
+<style>
+  /* Reset & basics */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #fdf6f0;
+    color: #333;
+  }
+  a {
+    color: #3178c6;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem 3rem;
+  }
+
+  /* Header */
+  header {
+    background-color: #3178c6;
+    color: #fff;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+  }
+  header h1 {
+    margin: 0 0 0.3rem;
+    font-weight: 700;
+  }
+  header p {
+    margin: 0;
+    font-style: italic;
+    font-weight: 500;
+  }
+
+  /* Ad banner placeholder */
+  .ad-banner {
+    margin: 1rem auto;
+    max-width: 728px;
+    height: 90px;
+    background: #e1e1e1;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    border: 2px dashed #aaa;
+    border-radius: 6px;
+  }
+
+  /* Sections */
+  section {
+    margin-top: 3rem;
+  }
+  section h2 {
+    border-bottom: 2px solid #3178c6;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    color: #205a8d;
+  }
+
+  /* About Me */
+  #about p {
+    font-size: 1.1rem;
+    max-width: 700px;
+  }
+
+  /* Blog posts */
+  .post {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.3rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  .post h3 {
+    margin-top: 0;
+    color: #3178c6;
+  }
+  .post .date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.8rem;
+  }
+  .post p {
+    margin: 0 0 0.7rem;
+  }
+  .affiliate-link {
+    font-size: 0.9rem;
+    color: #a55;
+  }
+  .affiliate-link a {
+    font-weight: 600;
+  }
+
+  /* Contact */
+  #contact p {
+    margin-bottom: 0.7rem;
+  }
+  #contact a {
+    font-weight: 600;
+  }
+
+  /* Support Me section */
+  #support {
+    background: #3178c6;
+    color: white;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  #support button {
+    background-color: #fff;
+    color: #3178c6;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #support button:hover {
+    background-color: #dbe9fb;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    body {
+      padding: 0 1rem;
+    }
+    .container {
+      padding: 1rem 0;
+    }
+    .ad-banner {
+      max-width: 100%;
+      height: 60px;
+      font-size: 0.9rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Chiy Valentine</h1>
+  <p>Sharing thoughts, ideas, and stories</p>
+</header>
+
+<!-- Ad banner placeholder -->
+<div class="ad-banner">Ad Banner Placeholder (728x90)</div>
+
+<div class="container">
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Chiy Valentine, a passionate blogger who loves to share insights and stories on a variety of topics. Welcome to my personal blog where I write about things that inspire me and, hopefully, inspire you too.</p>
+  </section>
+
+  <section id="blog">
+    <h2>Latest Posts</h2>
+
+    <article class="post">
+      <h3>The Joy of Everyday Moments</h3>
+      <div class="date">September 30, 2025</div>
+      <p>Life is made up of little moments that often go unnoticed. Let's explore how embracing the everyday can bring more happiness and meaning to our lives.</p>
+      <p class="affiliate-link">Check out this <a href="https://example-affiliate-link.com" target="_blank" rel="noopener noreferrer">recommended journal</a> to capture your daily thoughts!</p>
+    </article>
+
+    <article class="post">
+      <h3>How to Stay Creative When Life Gets Busy</h3>
+      <div class="date">September 15, 2025</div>
+      <p>Creativity can flourish even in a hectic schedule. Here are some tips and tricks that have helped me keep my creative spark alive.</p>
+      <p class="affiliate-link">Try this <a href="https://example-affiliate-link.com" target="_blank" rel="noopener noreferrer">creative brainstorming app</a> to boost your ideas.</p>
+    </article>
+
+    <article class="post">
+      <h3>Why Reading is My Favorite Escape</h3>
+      <div class="date">August 28, 2025</div>
+      <p>Books have the power to transport us to new worlds. Discover why reading is a beloved escape and how it influences my writing.</p>
+      <p class="affiliate-link">Discover great books on <a href="https://example-affiliate-link.com" target="_blank" rel="noopener noreferrer">this affiliate bookstore</a>.</p>
+    </article>
+
+  </section>
+
+  <section id="support">
+    <h2>Support Me</h2>
+    <p>If you enjoy my content, please consider supporting me to keep the blog going!</p>
+    <button onclick="window.open('https://www.buymeacoffee.com/chiyvalentine', '_blank')">Buy Me a Coffee</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Got questions or want to connect? Feel free to <a href="mailto:chiyvalentine@example.com">email me</a>. I’d love to hear from you!</p>
+  </section>
+
+</div>
+
+</body>
+</html>
